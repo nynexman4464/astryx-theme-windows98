@@ -4,6 +4,10 @@ A Windows 98 theme for [Astryx](https://github.com/meta/astryx): square corners,
 
 The theme prioritises period fidelity over modern design-system conventions.
 
+| Windows Standard (light)                                                                                                                                   | Slate (dark)                                                                                                                                 |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Checkout form and chat window in Windows Standard](https://raw.githubusercontent.com/nynexman4464/astryx-theme-windows98/main/docs/preview-standard.png) | ![Checkout form and chat window in Slate](https://raw.githubusercontent.com/nynexman4464/astryx-theme-windows98/main/docs/preview-slate.png) |
+
 ## Install
 
 ```bash
