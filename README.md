@@ -1,13 +1,13 @@
 # astryx-theme-windows98
 
-A Windows 98 theme for [Astryx](https://github.com/meta/astryx): square corners, dense controls, 3D bevels, recessed input fields, dotted keyboard-focus rectangles, and effectively no animation. Light mode is the Windows 98 "Windows Standard" appearance; dark mode is the Windows 9x "Slate" scheme.
+A Windows 98 theme for [Astryx](https://github.com/meta/astryx): square corners, dense controls, 3D bevels, recessed input fields, dotted keyboard-focus rectangles, and effectively no animation. Light mode is the Windows 98 "Windows Standard" appearance; dark mode is the Windows 98 "Rainy Day" scheme.
 
 The theme prioritises period fidelity over modern design-system conventions.
 
-| Windows Standard (light)                                                                                                                                   | Slate (dark)                                                                                                                                 |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Sign in dialog in Windows Standard, pixel-doubled](https://raw.githubusercontent.com/nynexman4464/astryx-theme-windows98/main/docs/dialog-standard.png)  | ![Sign in dialog in Slate, pixel-doubled](https://raw.githubusercontent.com/nynexman4464/astryx-theme-windows98/main/docs/dialog-slate.png)  |
-| ![Checkout form and chat window in Windows Standard](https://raw.githubusercontent.com/nynexman4464/astryx-theme-windows98/main/docs/preview-standard.png) | ![Checkout form and chat window in Slate](https://raw.githubusercontent.com/nynexman4464/astryx-theme-windows98/main/docs/preview-slate.png) |
+| Windows Standard (light)                                                                                                                                   | Rainy Day (dark)                                                                                                                                     |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Sign in dialog in Windows Standard, pixel-doubled](https://raw.githubusercontent.com/nynexman4464/astryx-theme-windows98/main/docs/dialog-standard.png)  | ![Sign in dialog in Rainy Day, pixel-doubled](https://raw.githubusercontent.com/nynexman4464/astryx-theme-windows98/main/docs/dialog-rainy-day.png)  |
+| ![Checkout form and chat window in Windows Standard](https://raw.githubusercontent.com/nynexman4464/astryx-theme-windows98/main/docs/preview-standard.png) | ![Checkout form and chat window in Rainy Day](https://raw.githubusercontent.com/nynexman4464/astryx-theme-windows98/main/docs/preview-rainy-day.png) |
 
 ## Install
 
@@ -55,9 +55,9 @@ Astryx's light and dark modes map onto the two classic appearance schemes:
 | Astryx mode | Windows scheme   | Desktop   | Face      | Text      |
 | ----------- | ---------------- | --------- | --------- | --------- |
 | Light       | Windows Standard | `#008080` | `#C0C0C0` | `#000000` |
-| Dark        | Slate            | `#414141` | `#9DB9C8` | `#000000` |
+| Dark        | Rainy Day        | `#000000` | `#8098B0` | `#000000` |
 
-**Slate is not a modern dark mode.** It has a dark desktop, but its controls are a light blue-grey with black text, exactly as the original scheme shipped. Treat it as a second light scheme with a dark backdrop rather than an inverted palette.
+**Rainy Day is not a modern dark mode.** It has a black desktop, but its controls are a steel blue-grey with black text, exactly as the original scheme shipped. Its lower-contrast bevels and greyed text are part of the period look. Treat it as a second light scheme with a dark backdrop rather than an inverted palette.
 
 ## Edges
 
