@@ -6,6 +6,7 @@ The theme prioritises period fidelity over modern design-system conventions.
 
 | Windows Standard (light)                                                                                                                                   | Slate (dark)                                                                                                                                 |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Sign in dialog in Windows Standard, pixel-doubled](https://raw.githubusercontent.com/nynexman4464/astryx-theme-windows98/main/docs/dialog-standard.png)  | ![Sign in dialog in Slate, pixel-doubled](https://raw.githubusercontent.com/nynexman4464/astryx-theme-windows98/main/docs/dialog-slate.png)  |
 | ![Checkout form and chat window in Windows Standard](https://raw.githubusercontent.com/nynexman4464/astryx-theme-windows98/main/docs/preview-standard.png) | ![Checkout form and chat window in Slate](https://raw.githubusercontent.com/nynexman4464/astryx-theme-windows98/main/docs/preview-slate.png) |
 
 ## Install
