@@ -1,0 +1,85 @@
+{
+  "name": "astryx-theme-windows98",
+  "version": "0.1.0",
+  "description": "Windows 98 theme for Astryx: the Windows Standard and Slate appearance schemes, Win32 bevels, embossed disabled text and period icons.",
+  "keywords": [
+    "astryx",
+    "astryx-theme",
+    "theme",
+    "windows98",
+    "win98",
+    "retro",
+    "design-system"
+  ],
+  "author": "Alex Rock",
+  "license": "MIT",
+  "homepage": "https://github.com/nynexman4464/astryx-theme-windows98#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nynexman4464/astryx-theme-windows98.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nynexman4464/astryx-theme-windows98/issues"
+  },
+  "type": "module",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "main": "./dist/source.cjs",
+  "module": "./dist/source.mjs",
+  "types": "./dist/source.d.cts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/source.d.ts",
+        "default": "./dist/source.mjs"
+      },
+      "require": {
+        "types": "./dist/source.d.cts",
+        "default": "./dist/source.cjs"
+      }
+    },
+    "./built": {
+      "types": "./dist/windows98.d.ts",
+      "default": "./dist/windows98.js"
+    },
+    "./theme.css": {
+      "types": "./theme.css.d.ts",
+      "default": "./dist/theme.css"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "src",
+    "theme.css.d.ts",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "build": "node -e \"require('node:fs').rmSync('dist',{recursive:true,force:true})\" && astryx theme build src/windows98Theme.ts -o dist/theme.css --icons-specifier ./icons.mjs && tsup",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prepublishOnly": "npm run typecheck && npm run build"
+  },
+  "peerDependencies": {
+    "@astryxdesign/core": "^0.7.13",
+    "react": ">=19"
+  },
+  "devDependencies": {
+    "@astryxdesign/cli": "0.7.13",
+    "@astryxdesign/core": "0.7.13",
+    "@types/react": "^19.3.0",
+    "prettier": "^3.6.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "tsup": "^8.3.0",
+    "typescript": "^6.0.3"
+  },
+  "packageManager": "pnpm@11.9.0"
+}

@@ -1,0 +1,9 @@
+# Install scripts run only where needed: esbuild fetches its binary for tsup.
+allowBuilds:
+  '@astryxdesign/cli': false
+  '@astryxdesign/core': false
+  esbuild: true
+# Astryx releases are newer than pnpm's default minimum release age.
+minimumReleaseAgeExclude:
+  - '@astryxdesign/cli@0.7.13'
+  - '@astryxdesign/core@0.7.13'
